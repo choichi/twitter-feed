@@ -39,5 +39,5 @@ spec:
     targetPort: ${PORT}
   selector:
     app: twitter-feed
-  type: LoadBalancer
+  type: ClusterIP
 ---
